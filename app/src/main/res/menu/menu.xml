@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_listView"
+        android:orderInCategory="100"
+        android:title="ListView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_gridView"
+        android:orderInCategory="100"
+        android:title="GridView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_hor_listView"
+        android:orderInCategory="100"
+        android:title="HorlistView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_hor_gridView"
+        android:orderInCategory="100"
+        android:title="HorGridView"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_starggered"
+        android:orderInCategory="100"
+        android:title="Starggere"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@mipmap/ic_menu_add"
+        android:title="添加"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@mipmap/ic_menu_delete"
+        android:title="删除"
+        app:showAsAction="ifRoom" />
+
+</menu>
