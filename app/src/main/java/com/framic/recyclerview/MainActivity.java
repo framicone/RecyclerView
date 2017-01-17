@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initDatas() {
         datas = new ArrayList<String>();
-        for (int i = 'A'; i < 'z'; i++) {
+        for (int i = 'A'; i < 'Z'; i++) {
             datas.add("" + (char) i);
         }
     }
